@@ -1,0 +1,66 @@
+_address	name	description	unit	type	len	factor	offset	formula	role	room	cw	isScale
+4999	Device type  code	Geräte Typ-Code		int8be	1	1	0		value		false	false
+5000	Nominal Output Power	Installierte Leistung	Kw	uint16be	1	0.1	0		value		false	false
+5002	Daily  Output Energy	Eigene Energienutzung heute (PV & Akku)	Kwh	uint16be	1	0.1	0		value		false	false
+5003	Total Output Energy	Eigene Energienutzung gesamt (PV & Akku)	Kwh	uint32sw	2	0.1	0		value		false	false
+5007	Inside  Temperature	Temperatur im Wechselrichter	°C	int16be	1	0.1	0		value		false	false
+5010	MPPT 1 Voltage	MPPT1 Spannung	V	uint16be	1	0.1	0		value		false	false
+5011	MPPT 1 Current	MPPT1 Strom	A	uint16be	1	0.1	0		value		false	false
+5012	MPPT 2 Voltage	MPPT2 Spannung	V	uint16be	1	0.1	0		value		false	false
+5013	MPPT 2 Current	MPPT2 Strom	A	uint16be	1	0.1	0		value		false	false
+5016	Total DC Power	PV-Leistung aktuell	W	uint32sw	2	1	0		value		false	false
+5018	Spannung Ph A	Spannung Phase A	V	uint16be	1	0.1	0		value		false	false
+5019	Spannung Ph B	Spannung Phase B	V	uint16be	1	0.1	0		value		false	false
+5020	Spannung Ph C	Spannung Phase C	V	uint16be	1	0.1	0		value		false	false
+5032	Reactive Power	Blindleistung	VA®	int32sw	2		0		value		false	false
+5034	Power Factor	Leistungsfaktor		int16be	1	0.001	0		value		false	false
+5035	Grid Frequency	Netzfrequenz	Hz	uint16be	1	0.1	0		value		false	false
+12999	System State	Systemstatus		uint16be	1	1	0		value		false	false
+13000	Running State	Betriebsstatus		uint16be	1	1	0		value		false	false
+13001	Daily PV Generation	PV-Stromerzeugung heute	Kwh	uint16be	1	0.1	0		value		false	false
+13002	Total PV  Generation	PV-Stromerzeugung gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
+13004	Daily export  energy from PV	PV-Einspeise Energie heute	Kwh	uint16be	1	0.1	0		value		false	false
+13005	Total export  energy from PV	PV-Einspeise Energie gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
+13007	Load power 	Wirkleistung gesamt	W	uint32sw	2	1	0		value		false	false
+13009	Export power	Aktuelle Leistung am Übergabepunkt des Versorgungsnetzes	W	int32sw	2	1	0		value		false	false
+13011	Daily battery charge energy from PV	Energie in Speicher heute	Kwh	uint16be	1	0.1	0		value		false	false
+13012	Total battery charge energy from PV	Energie in Speicher gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
+13014	CO2-reduction	CO2- Reduzierung	Kg	uint32sw	2	0.1	0		value		false	false
+13016	Daily direct  Energy Consumption	Direkter Eigenverbrauch aus PV heute	Kwh	uint16be	1	0.1	0		value		false	false
+13017	Total direct  Energy Consumption	Direkter Eigenverbrauch aus PV gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
+13019	Battery voltage	Batteriespannung	V	uint16be	1	0.1	0		value		false	false
+13020	Battery current 	Batteriestrom	A	uint16be	1	0.1	0		value		false	false
+13021	Battery power 	Batterieladeleistung	W	uint16be	1	1	0		value		false	false
+13022	Battery level 	Batteriekapazität	%	uint16be	1	0.1	0		value		false	false
+13023	Battery state of health	Gesundheit der Batterie	%	uint16be	1	0.1	0		value		false	false
+13024	Battery Temperature	Batterietemperatur	°C	int16be	1	0.1	0		value		false	false
+13025	Daily battery discharge Energy	Tägliche Entladungsenergie der Batterie	Kwh	uint16be	1	0.1	0		value		false	false
+13026	Total battery discharge Energy	Gesamte Entladungsenergie der Batterie	Kwh	uint32sw	2	0.1	1		value		false	false
+13028	Self-consumption of today	Heutiger Anteil des Eigenverbrauches	%	uint16be	1	0.1	0		value		false	false
+13029	Grid state	Netzstatus		int16be	1	0.1	0		value		false	false
+13030	Phase A current	Strom Phase A aktuell	A	uint16be	1	0.1	0		value		false	false
+13031	Phase B current	Strom Phase B aktuell	A	uint16be	1	0.1	0		value		false	false
+13032	Phase C current	Strom Phase C aktuell	A	uint16be	1	0.1	0		value		false	false
+13033	Total active power	Eigenverbrauch aktuell	W	int32sw	2	1	0		value		false	false
+13035	Daily Import Energy	Gekaufte Energie heute	Kwh	uint16be	1	0.1	0		value		false	false
+13036	Total Import Energy	Gekaufte Energie gesamt	Kwh	uint16be	1	0.1	0		value		false	false
+13038	Battery Capacity	Batterie-Kapazität	Kwh	uint16be	1	0.01	0		value		false	false
+13039	Daily Charge Energy	Batterie-Ladeenergie heute	Kwh	uint16be	1	0.1	0		value		false	false
+13040	Total Charge Energy	Batterie-Ladeenergie gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
+13044	Daily export energy	Energie Netzeinspeisung heute	Kwh	uint16be	1	0.1	0		value		false	false
+13045	Total export energy	Energie Netzeinspeisung gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
+13049	Inverter alarm	Inverter alarm		uint32sw	2	1	0		value		false	false
+13051	Grid-side fault	Netzfehler		uint32sw	2	1	0		value		false	false
+13053	System fault 1	System Fehler 1		uint32sw	2	1	0		value		false	false
+13055	System fault 2	System Fehler 2		uint32sw	2	1	0		value		false	false
+13057	DC-side fault	Fehler DC-Seitig		uint32sw	2	1	0		value		false	false
+13059	Permanent fault	Permanenter Fehler		uint32sw	2	1	0		value		false	false
+13061	BDC-side fault	BDC-side fault		uint32sw	2	1	0		value		false	false
+13063	BDC-side permanent fault	BDC-side permanent fault		uint32sw	2	1	0		value		false	false
+13065	Battery fault	Batterie Fehler		uint32sw	2	1	0		value		false	false
+13067	Battery alarm	Battery Alarm		uint32sw	2	1	0		value		false	false
+13069	BMS alarm	BMS Alarm		uint32sw	2	1	0		value		false	false
+13071	BMS protection	BMS protection		uint32sw	2	1	0		value		false	false
+13073	BMS fault 1	BMS fault 1		uint32sw	2	1	0		value		false	false
+13075	BMS fault 2	BMS fault 2		uint32sw	2	1	0		value		false	false
+13077	BMS alarm 2	BMS alarm 2		uint32sw	2	1	0		value		false	false
