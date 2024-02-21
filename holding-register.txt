@@ -1,0 +1,58 @@
+_address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	cw	isScale
+4999	System Clock Year	Systemzeit Jahr		uint16be	1	1	0		value		false	false	false	false
+5000	System Clock Month	Systemzeit Monat		uint16be	1	1	0		value		false	false	false	false
+5001	System Clock Day	Systemzeit Tag		uint16be	1	1	0		value		false	false	false	false
+5002	System Clock Hour	Systemzeit Stunde		uint16be	1	1	0		value		false	false	false	false
+5003	System Clock Minute	Systemzeit Minute		uint16be	1	1	0		value		false	false	false	false
+12999	Start/Stop	Start/Stop Start(CF) Stop (CF)		uint16be	1	1	0		value		false	false	false	false
+13000	Battery Maintenance	Batterie Wartung		uint16be	1	1	0		value		false	false	false	false
+13001	Load Adjustment mode	Energie Management Modus ON/OFF(1) / Energieoptimiert(2)		uint16be	1	1	0		value		false	false	false	false
+13002	Load 1 timing period 1: Start hour		h	uint16be	1	1	0		value		false	false	false	false
+13003	Load 1 timing period 1: Start minute		min	uint16be	1	1	0		value		false	false	false	false
+13004	Load 1 timing period 1: End hour		min	uint16be	1	1	0		value		false	false	false	false
+13005	Load 1 timing period 1: End minute		h	uint16be	1	1	0		value		false	false	false	false
+13006	Load 1 timing period 2: Start hour		h	uint16be	1	1	0		value		false	false	false	false
+13007	Load 1 timing period 2: Start minute		min	uint16be	1	1	0		value		false	false	false	false
+13008	Load 1 timing period 2: End hour		h	uint16be	1	1	0		value		false	false	false	false
+13009	Load 1 timing period 2: End minute		min	uint16be	1	1	0		value		false	false	false	false
+13010	Load 1 ON/OFF mode	Load 1 ON/OFF mode    ON(170/AA)/ OFF (85/55)		uint16be	1	1	0		value		false	false	false	false
+13011	Load 1 power optimized mode: Start hour		h	uint16be	1	1	0		value		false	false	false	false
+13012	Load 1 power optimized mode: Start minute		min	uint16be	1	1	0		value		false	false	false	false
+13013	Load 1 power optimized mode: End hour		h	uint16be	1	1	0		value		false	false	false	false
+13014	Load 1 power optimized mode: End Minute 		min	uint16be	1	1	0		value		false	false	false	false
+13015	Optimized power of load 1	Optimized power of load 1	W	uint16be	1	1	0		value		false	false	false	false
+13049	EMS mode selection 	EMS Modus		uint16be	1	1	0		value		true	false	false	false
+13050	Charge/discharge command	Ext. Sollvorgabe Laden170(AA)/ Stop187(BB)/ Entladen204(CC) 		uint16be	1	1	0		value		true	false	false	false
+13051	Charge/discharge power	Ext. Sollvorgabe Lade/Entladeleistung		uint16be	1	1	0		value		true	false	false	false
+13055	Batterie nominal Voltage	Nominal Spannung Batterie	V	uint16be	1	0.1	0		value		false	false	false	false
+13056	Battery capacity	BatteriekapazitÃ¤t	Ah	uint16be	1	1	0		value		false	false	false	false
+13057	Max. SOC	Max SOC	%	uint16be	1	0.1	0		value		false	false	false	false
+13058	Min. SOC	Min SOC	%	uint16be	1	0.1	0		value		false	false	false	false
+13059	Battery overvoltage threshold	Batterie Ãœberspannungs Threshold	V	int16be	1	0.1	0		value		false	false	false	false
+13060	Battery undervoltage threshold	Batterie Unterspannungs Threshold	V	int16be	1	0.1	0		value		false	false	false	false
+13061	Battery over temperature threshold	Batterie Ãœbertemperatur Threshold	Â°C	int16be	1	0.1	0		value		false	false	false	false
+13062	Battery under temperature threshold	Batterie Ãœbertemperatur Threshold	Â°C	int16be	1	0.1	0		value		false	false	false	false
+13064	Terminated current of constant voltage charging		Â°C	int16be	1	0.001	0		value		false	false	false	false
+13065	Max. discharge current	Max. Entlade Strom	A	uint16be	1	0.001	0		value		false	false	false	false
+13066	Max. charge current	Max. Lade Strom	A	uint16be	1	0.001	0		value		false	false	false	false
+13073	Export power limitation			uint16be	1	1	0		value		false	false	false	false
+13074	Off-grid option			uint16be	1	1	0		value		false	false	false	false
+13079	External EMS heartbeat			uint16be	1	1	0		value		false	false	false	false
+13083	Start  Charging Power	u.U. Leistung, mit welcher ein Ladevorgang begonnen wird. KlÃ¤rung erwÃ¼nscht	W	uint16be	1	1	0		value		false	false	false	false
+13084	Start Discharging Power	u.U. Leistung, mit welcher ein Entladevorgang begonnen wird. KlÃ¤rung erwÃ¼nscht	W	uint16be	1	1	0		value		false	false	false	false
+13085	Meter Comm.	Kommunikation mit Energie Meter des WR	W	uint16be	1	1	0		value		false	false	false	false
+13086	Export Power Limitation	Einspeise Limitierung AN(170/AA) AUS(85/55h)		uint16be	1	1	0		value		false	false	false	false
+13099	SOC Reserve	SOC Reserve	%	uint16be	1	1	0		value		false	false	false	false
+30229	Manual Scan Manual	Scanning 170 (ON)  85 (OFF)		uint16be	1	1	0		value		true	false	false	false
+33207	Forced Charging	Erzwungendes Laden		uint16be	1	1	0		value		true	false	false	false
+33208	Forced Charging Valid Time	0: Weekday 1: Everyday		uint16be	1	1	0		value		true	false	false	false
+33209	Forced Charging Start Time 1h	Startzeit 1h 0-23	h	uint16be	1	1	0		value		true	false	false	false
+33210	Forced Charging Start Time 1min	Startzeit 1min0-59	min	uint16be	1	1	0		value		true	false	false	false
+33211	Forced Charging End Time 1h	Endzeit 1h 0-23	h	uint16be	1	1	0		value		true	false	false	false
+33212	Forced Charging End Time 1min	Endzeit 1 min 0-59	min	uint16be	1	1	0		value		true	false	false	false
+33213	Forced Charging Target SOC1	Ziel Ladezustand 0-100	%	uint16be	1	1	0		value		true	false	false	false
+33214	Forced Charging Start Time 2h	0-23	h	uint16be	1	1	0		value		true	false	false	false
+33215	Forced Charging Start Time 2min	0-59	min	uint16be	1	1	0		value		true	false	false	false
+33216	Forced Charging End Time 2h	0-23	h	uint16be	1	1	0		value		true	false	false	false
+33217	Forced Charging End Time 2min	0-59	min	uint16be	1	1	0		value		true	false	false	false
+33218	Forced Charging Target SOC2	0-100	%	uint16be	1	1	0		value		true	false	false	false
