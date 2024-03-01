@@ -1,0 +1,15 @@
+_address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	cw	isScale
+21200	Total_Energy	Bisher geladene Gesamtleistung	wh	uint32be	2	1			state		true	true	false	false
+21202	SetOutI	Ausgangsstrom | 0,1A | 6A-63A	A	uint16be	1	1			state		true	true	false	false
+21203	PhaseSwitch	PhaseSwitch | 0=3ph 1=1ph		uint16be	1	1			state		true	true	false	false
+21210	Charger_Enable	Charger Enable |  0=disable 1=enable		uint16be	1	1			state		true	true	false	false
+21211	START_STOP_CHARGING	Ladung Starten | Stoppen 0=Start 1=Stop		uint16be	1	1			state		true	true	false	false
+21212	Total_Energy	Total_Energy	Wh	uint32be	2	1			state		true	true	false	false
+21224	Year	Year		uint16be	1	1			state		true	true	false	false
+21225	Month	Month		uint16be	1	1			state		true	true	false	false
+21226	Day	Day		uint16be	1	1			state		true	true	false	false
+21227	Hour	Hour		uint16be	1	1			state		true	true	false	false
+21228	Minute	Minute		uint16be	1	1			state		true	true	false	false
+21229	Second	Second		uint16be	1	1			state		true	true	false	false
+21230	Dev_Address	Bus Adresse | deafult 248		uint16be	1	1			state		true	true	false	false
+21231	Enery_per_Km	Energie pro Km		uint16be	1	1			state		true	true	false	false
