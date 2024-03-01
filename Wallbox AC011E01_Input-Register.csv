@@ -1,0 +1,19 @@
+_address	name	description	unit	type	len	factor	offset	formula	role	room	cw	isScale
+21200	Serial_Number	Seriennummer		string	20	1	0		value		false	false
+21261	Rated voltage	Ausgangsspannung	V	uint16be	1	1	0		value		false	false
+21262	Work_MODE	Working Mode | 0=Network 2=PnP 6=EMS		uint16be	1	1	0		value		false	false
+21267	Charger_Status	Status Ladestation | 0=Disable 1=Enable		uint16be	1	1	0		value		false	false
+21299	Total_Energy	Ladeleistung total	Wh	uint32be	2	1	0		value		false	false
+21301	Charging_Voltage_R	Ladespannung_R | 0.1V	V	uint16be	1	1	0		value		false	false
+21302	Charging_Current_R	Ladestrom_R | 0.1A	A	uint16be	1	1	0		value		false	false
+21303	Charging_Voltage_S	Ladespannung_S | 0.1V	V	uint16be	1	1	0		value		false	false
+21304	Charging_Current_S	Ladestrom_S | 0.1A	A	uint16be	1	1	0		value		false	false
+21305	Charging_Voltage_T	Ladespannung_T | 0.1V	V	uint16be	1	1	0		value		false	false
+21306	Charging_Current_T	Ladestrom_T | 0.1A	A	uint16be	1	1	0		value		false	false
+21307	Charging_Power	Ladeenergie aktueller Ladevorgang 	W	uint32be	2	1	0		value		false	false
+21309	Charging_Engery	Ladeenergie seit Start des Ladevorgangs	Wh	uint32be	2	1	0		value		false	false
+21313	Start_Mode	Ladestart Modus | 1=EMS 2=CARD		uint16be	1	1	0		value		false	false
+21315	Power_Regulation	Leistungsregelung | 0=forbidden 1=allowed		uint16be	1	1	0		value		false	false
+21316	Charging_Status	Status Wallbox | 1=Idle 2=Standby 3=Charching 4=Charching suspended (Wallbox) 5=Charching suspended (Vehicle) 6=Charching complete 7=Reserved 8=Disabled 9=Fault		uint16be	1	1	0		value		false	false
+21317	Charge_Start_Time	Ladestart | Unix-time-stamp		uint32be	2	1	0		value		false	false
+21319	Charge_End_Time	Ladeende | Unix-time-stamp		uint32be	2	1	0		value		false	false
