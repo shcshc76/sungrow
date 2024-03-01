@@ -10,20 +10,56 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	cw	isSca
 5013	MPPT 2 Current	MPPT2 Strom	A	uint16be	1	0.1	0		value		false	false
 5016	Total DC Power	PV-Leistung aktuell	W	uint32sw	2	1	0		value		false	false
 5018	Spannung Ph A	Spannung Phase A	V	uint16be	1	0.1	0		value		false	false
-5019	Spannung Ph B	Spannung Phase B	V	uint16be	1	0.1	0		value		false	false
+5019	Spannung Ph B	Spannung Phase C	V	uint16be	1	0.1	0		value		false	false
 5020	Spannung Ph C	Spannung Phase C	V	uint16be	1	0.1	0		value		false	false
 5032	Reactive Power	Blindleistung	VA®	int32sw	2		0		value		false	false
 5034	Power Factor	Leistungsfaktor		int16be	1	0.001	0		value		false	false
 5035	Grid Frequency	Netzfrequenz	Hz	uint16be	1	0.1	0		value		false	false
+6226	Monthly PV energy yields January	 Monatlicher PV Energieertrag  Januar	Kwh	uint16be	1	0.1	0		value		false	false
+6227	Monthly PV energy yields February	 Monatlicher PV Energieertrag Februar	Kwh	uint16be	1	0.1	0		value		false	false
+6228	Monthly PV energy yields March	 Monatlicher PV Energieertrag März	Kwh	uint16be	1	0.1	0		value		false	false
+6229	Monthly PV energy yields April	 Monatlicher PV Energieertrag April	Kwh	uint16be	1	0.1	0		value		false	false
+6230	Monthly PV energy yields May	 Monatlicher PV Energieertrag Mai	Kwh	uint16be	1	0.1	0		value		false	false
+6231	Monthly PV energy yields June	 Monatlicher PV Energieertrag Juni	Kwh	uint16be	1	0.1	0		value		false	false
+6232	Monthly PV energy yields July	 Monatlicher PV Energieertrag Juli	Kwh	uint16be	1	0.1	0		value		false	false
+6233	Monthly PV energy yields August	 Monatlicher PV Energieertrag August	Kwh	uint16be	1	0.1	0		value		false	false
+6234	Monthly PV energy yields September	 Monatlicher PV Energieertrag September	Kwh	uint16be	1	0.1	0		value		false	false
+6235	Monthly PV energy yields October	 Monatlicher PV Energieertrag Oktober	Kwh	uint16be	1	0.1	0		value		false	false
+6236	Monthly PV energy yields November	 Monatlicher PV Energieertrag November	Kwh	uint16be	1	0.1	0		value		false	false
+6237	Monthly PV energy yields December	 Monatlicher PV Energieertrag Dezember	Kwh	uint16be	1	0.1	0		value		false	false
+6416	Monthly direct energy consumption from PVJanuary	Monatlicher Energieverbrauch von PV-Anlage im Januar	Kwh	uint16be	1	0.1	0		value		false	false
+6417	Monthly direct energy consumption from PV February	Monatlicher Energieverbrauch von PV-Anlage im Februar	Kwh	uint16be	1	0.1	0		value		false	false
+6418	Monthly direct energy consumption from PV March	Monatlicher Energieverbrauch von PV-Anlage im März	Kwh	uint16be	1	0.1	0		value		false	false
+6419	Monthly direct energy consumption from PV April	Monatlicher Energieverbrauch von PV-Anlage im April	Kwh	uint16be	1	0.1	0		value		false	false
+6420	Monthly direct energy consumption from PV May	Monatlicher Energieverbrauch von PV-Anlage im Mai	Kwh	uint16be	1	0.1	0		value		false	false
+6421	Monthly direct energy consumption from PV June	Monatlicher Energieverbrauch von PV-Anlage im Juni	Kwh	uint16be	1	0.1	0		value		false	false
+6422	Monthly direct energy consumption from PV July	Monatlicher Energieverbrauch von PV-Anlage im Juli	Kwh	uint16be	1	0.1	0		value		false	false
+6423	Monthly direct energy consumption from PV August	Monatlicher Energieverbrauch von PV-Anlage im August	Kwh	uint16be	1	0.1	0		value		false	false
+6424	Monthly direct energy consumption from PV Septemper	Monatlicher Energieverbrauch von PV-Anlage im September	Kwh	uint16be	1	0.1	0		value		false	false
+6425	Monthly direct energy consumption from PV October	Monatlicher Energieverbrauch von PV-Anlage im Oktober	Kwh	uint16be	1	0.1	0		value		false	false
+6426	Monthly direct energy consumption from PV November	Monatlicher Energieverbrauch von PV-Anlage im November	Kwh	uint16be	1	0.1	0		value		false	false
+6427	Monthly direct energy consumption from PV december	Monatlicher Energieverbrauch von PV-Anlage im Dezember	Kwh	uint16be	1	0.1	0		value		false	false
+6595	Monthly export energy from PV January	 Monatlicher Energieexport aus PV-Anlage Januar	Kwh	uint16be	1	0.1	0		value		false	false
+6596	Monthly export energy from PV February	 Monatlicher Energieexport aus PV-Anlage Februar	Kwh	uint16be	1	0.1	0		value		false	false
+6597	Monthly export energy from PV March	 Monatlicher Energieexport aus PV-Anlage März	Kwh	uint16be	1	0.1	0		value		false	false
+6598	Monthly export energy from PV April	 Monatlicher Energieexport aus PV-Anlage April	Kwh	uint16be	1	0.1	0		value		false	false
+6599	Monthly export energy from PV May	 Monatlicher Energieexport aus PV-Anlage Mai	Kwh	uint16be	1	0.1	0		value		false	false
+6600	Monthly export energy from PV June	 Monatlicher Energieexport aus PV-Anlage Juni	Kwh	uint16be	1	0.1	0		value		false	false
+6601	Monthly export energy from PV July	 Monatlicher Energieexport aus PV-Anlage Juli	Kwh	uint16be	1	0.1	0		value		false	false
+6602	Monthly export energy from PV August	 Monatlicher Energieexport aus PV-Anlage August	Kwh	uint16be	1	0.1	0		value		false	false
+6603	Monthly export energy from PV September	 Monatlicher Energieexport aus PV-Anlage September	Kwh	uint16be	1	0.1	0		value		false	false
+6604	Monthly export energy from PV October	 Monatlicher Energieexport aus PV-Anlage Oktober	Kwh	uint16be	1	0.1	0		value		false	false
+6605	Monthly export energy from PV November	 Monatlicher Energieexport aus PV-Anlage November	Kwh	uint16be	1	0.1	0		value		false	false
+6606	Monthly export energy from PV Dezember	 Monatlicher Energieexport aus PV-Anlage Dezember	Kwh	uint16be	1	0.1	0		value		false	false
 12999	System State	Systemstatus		uint16be	1	1	0		value		false	false
 13000	Running State	Betriebsstatus		uint16be	1	1	0		value		false	false
 13001	Daily PV Generation	PV-Stromerzeugung heute	Kwh	uint16be	1	0.1	0		value		false	false
-13002	Total PV  Generation	PV-Stromerzeugung gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
+13002	Total PV  Generation	PV-Stromerzeugung gesamt	Kwh	uint32sw	2	1	0		value		false	false
 13004	Daily export  energy from PV	PV-Einspeise Energie heute	Kwh	uint16be	1	0.1	0		value		false	false
 13005	Total export  energy from PV	PV-Einspeise Energie gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
 13007	Load power 	Wirkleistung gesamt	W	uint32sw	2	1	0		value		false	false
 13009	Export power	Aktuelle Leistung am Übergabepunkt des Versorgungsnetzes	W	int32sw	2	1	0		value		false	false
-13011	Daily battery charge energy from PV	Energie in Speicher heute	Kwh	uint16be	1	0.1	0		value		false	false
+13011	Daily battery charge energy from PV	Energie in Speicher heute	Kwh	uint16be	1	1	0		value		false	false
 13012	Total battery charge energy from PV	Energie in Speicher gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
 13014	CO2-reduction	CO2- Reduzierung	Kg	uint32sw	2	0.1	0		value		false	false
 13016	Daily direct  Energy Consumption	Direkter Eigenverbrauch aus PV heute	Kwh	uint16be	1	0.1	0		value		false	false
@@ -44,11 +80,12 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	cw	isSca
 13033	Total active power	Eigenverbrauch aktuell	W	int32sw	2	1	0		value		false	false
 13035	Daily Import Energy	Gekaufte Energie heute	Kwh	uint16be	1	0.1	0		value		false	false
 13036	Total Import Energy	Gekaufte Energie gesamt	Kwh	uint16be	1	0.1	0		value		false	false
-13038	Battery Capacity	Batterie-Kapazität	Kwh	uint16be	1	0.01	0		value		false	false
+13038	Battery Capacity	Batterie-Kapazität	Kwh	uint16be	1	0.1	0		value		false	false
 13039	Daily Charge Energy	Batterie-Ladeenergie heute	Kwh	uint16be	1	0.1	0		value		false	false
 13040	Total Charge Energy	Batterie-Ladeenergie gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
 13044	Daily export energy	Energie Netzeinspeisung heute	Kwh	uint16be	1	0.1	0		value		false	false
 13045	Total export energy	Energie Netzeinspeisung gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
+13048	EMS_Mode	EMS Modus		uint16be	1	1	0		value		false	false
 13049	Inverter alarm	Inverter alarm		uint32sw	2	1	0		value		false	false
 13051	Grid-side fault	Netzfehler		uint32sw	2	1	0		value		false	false
 13053	System fault 1	System Fehler 1		uint32sw	2	1	0		value		false	false
