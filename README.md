@@ -19,13 +19,13 @@ Firmware
 
 ### Kennwörter
 
-## Winet-S
+#### Winet-S
 
-Benuter: admin
-Password: pw8888
+Benuter: admin   
+Password: pw8888   
 
-Benutzer: user
-Password: pw1111
+Benutzer: user   
+Password: pw1111   
 
 ### Links:
 
