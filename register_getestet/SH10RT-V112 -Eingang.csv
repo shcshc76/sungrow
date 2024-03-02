@@ -49,6 +49,7 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	cw	isSca
 13040	Total Charge Energy	Batterie-Ladeenergie gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
 13044	Daily export energy	Energie Netzeinspeisung heute	Kwh	uint16be	1	0.1	0		value		false	false
 13045	Total export energy	Energie Netzeinspeisung gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
+13048	EMS_Mode	EMS Modus		uint16be	1	1	0		value		false	false
 13049	Inverter alarm	Inverter alarm		uint32sw	2	1	0		value		false	false
 13051	Grid-side fault	Netzfehler		uint32sw	2	1	0		value		false	false
 13053	System fault 1	System Fehler 1		uint32sw	2	1	0		value		false	false
