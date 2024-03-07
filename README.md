@@ -36,3 +36,5 @@ https://forum.iobroker.net/topic/73087/sungrow-wallbox-ac011e-01-erfolgreich-mit
 https://www.photovoltaikforum.com/thread/166134-daten-lesen-vom-sungrow-wechselrichtern-modbus/
 
 https://github.com/sungrow-firmware/firmware
+
+https://github.com/tiagocoutinho/modbus-proxy
