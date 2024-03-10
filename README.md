@@ -38,3 +38,5 @@ https://www.photovoltaikforum.com/thread/166134-daten-lesen-vom-sungrow-wechselr
 https://github.com/sungrow-firmware/firmware
 
 https://github.com/tiagocoutinho/modbus-proxy
+
+https://noegel.io/posts/2022-10-09-sungrow/
