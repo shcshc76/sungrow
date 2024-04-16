@@ -40,10 +40,10 @@ https://forum.iobroker.net/topic/38441/sungrow-wr-sgh10rt-erfolgreich-mit-modbus
 
 https://forum.iobroker.net/topic/73087/sungrow-wallbox-ac011e-01-erfolgreich-mit-modbus-eingebunden
 
-https://www.photovoltaikforum.com/thread/166134-daten-lesen-vom-sungrow-wechselrichtern-modbus/
+[photovoltaikforum](https://www.photovoltaikforum.com/thread/166134-daten-lesen-vom-sungrow-wechselrichtern-modbus/)
 
-https://github.com/sungrow-firmware/firmware
+[Firmware Updates](https://github.com/sungrow-firmware/firmware)
 
-https://github.com/tiagocoutinho/modbus-proxy
+[Modbus Proxy](https://github.com/tiagocoutinho/modbus-proxy)
 
-https://noegel.io/posts/2022-10-09-sungrow/
+[iobroker und modbus](https://noegel.io/posts/2022-10-09-sungrow/)
