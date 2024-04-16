@@ -30,6 +30,8 @@ Password: pw1111
 ### Ports
 
 ![Logo](pics/Inverter_LAN_ports.drawio.svg)
+![Logo](pics/overview_modbus_connection.drawio.svg)
+
 
 
 ### Links:
