@@ -27,6 +27,11 @@ Password: pw8888
 Benutzer: user   
 Password: pw1111   
 
+### Ports
+
+![Logo](pics/Inverter_LAN_ports.drawio.svg)
+
+
 ### Links:
 
 https://forum.iobroker.net/topic/38441/sungrow-wr-sgh10rt-erfolgreich-mit-modbus-eingebunden
