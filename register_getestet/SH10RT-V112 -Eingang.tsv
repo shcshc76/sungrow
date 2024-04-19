@@ -15,6 +15,18 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	cw	isSca
 5032	Reactive Power	Blindleistung	VA®	int32sw	2		0		value		false	false
 5034	Power Factor	Leistungsfaktor		int16be	1	0.001	0		value		false	false
 5035	Grid Frequency	Netzfrequenz	Hz	uint16be	1	0.1	0		value		false	false
+6226	Monthly PV energy yields January	 Monatlicher PV Energieertrag  Januar	Kwh	uint16be	1	0.1	0		value		false	false
+6227	Monthly PV energy yields February	 Monatlicher PV Energieertrag Februar	Kwh	uint16be	1	0.1	0		value		false	false
+6228	Monthly PV energy yields March	 Monatlicher PV Energieertrag März	Kwh	uint16be	1	0.1	0		value		false	false
+6229	Monthly PV energy yields April	 Monatlicher PV Energieertrag April	Kwh	uint16be	1	0.1	0		value		false	false
+6230	Monthly PV energy yields May	 Monatlicher PV Energieertrag Mai	Kwh	uint16be	1	0.1	0		value		false	false
+6231	Monthly PV energy yields June	 Monatlicher PV Energieertrag Juni	Kwh	uint16be	1	0.1	0		value		false	false
+6232	Monthly PV energy yields July	 Monatlicher PV Energieertrag Juli	Kwh	uint16be	1	0.1	0		value		false	false
+6233	Monthly PV energy yields August	 Monatlicher PV Energieertrag August	Kwh	uint16be	1	0.1	0		value		false	false
+6234	Monthly PV energy yields September	 Monatlicher PV Energieertrag September	Kwh	uint16be	1	0.1	0		value		false	false
+6235	Monthly PV energy yields October	 Monatlicher PV Energieertrag Oktober	Kwh	uint16be	1	0.1	0		value		false	false
+6236	Monthly PV energy yields November	 Monatlicher PV Energieertrag November	Kwh	uint16be	1	0.1	0		value		false	false
+6237	Monthly PV energy yields December	 Monatlicher PV Energieertrag Dezember	Kwh	uint16be	1	0.1	0		value		false	false
 12999	System State	Systemstatus		uint16be	1	1	0		value		false	false
 13000	Running State	Betriebsstatus		uint16be	1	1	0		value		false	false
 13001	Daily PV Generation	PV-Stromerzeugung heute	Kwh	uint16be	1	0.1	0		value		false	false
@@ -49,18 +61,3 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	cw	isSca
 13040	Total Charge Energy	Batterie-Ladeenergie gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
 13044	Daily export energy	Energie Netzeinspeisung heute	Kwh	uint16be	1	0.1	0		value		false	false
 13045	Total export energy	Energie Netzeinspeisung gesamt	Kwh	uint32sw	2	0.1	0		value		false	false
-13049	Inverter alarm	Inverter alarm		uint32sw	2	1	0		value		false	false
-13051	Grid-side fault	Netzfehler		uint32sw	2	1	0		value		false	false
-13053	System fault 1	System Fehler 1		uint32sw	2	1	0		value		false	false
-13055	System fault 2	System Fehler 2		uint32sw	2	1	0		value		false	false
-13057	DC-side fault	Fehler DC-Seitig		uint32sw	2	1	0		value		false	false
-13059	Permanent fault	Permanenter Fehler		uint32sw	2	1	0		value		false	false
-13061	BDC-side fault	BDC-side fault		uint32sw	2	1	0		value		false	false
-13063	BDC-side permanent fault	BDC-side permanent fault		uint32sw	2	1	0		value		false	false
-13065	Battery fault	Batterie Fehler		uint32sw	2	1	0		value		false	false
-13067	Battery alarm	Battery Alarm		uint32sw	2	1	0		value		false	false
-13069	BMS alarm	BMS Alarm		uint32sw	2	1	0		value		false	false
-13071	BMS protection	BMS protection		uint32sw	2	1	0		value		false	false
-13073	BMS fault 1	BMS fault 1		uint32sw	2	1	0		value		false	false
-13075	BMS fault 2	BMS fault 2		uint32sw	2	1	0		value		false	false
-13077	BMS alarm 2	BMS alarm 2		uint32sw	2	1	0		value		false	false
