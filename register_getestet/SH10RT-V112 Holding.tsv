@@ -1,0 +1,19 @@
+_address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	cw	isScale
+12999	Start/Stop	Start/Stop Start(CF) Stop (CE)		uint16be	1	1	0		value		false	false	false	false
+13049	EMS mode selection 	EMS Modus		uint16be	1	1	0		value		false	false	false	false
+13050	Charge/discharge command	Ext. Sollvorgabe Laden170(AA)/ Stop187(BB)/ Entladen204(CC) 		uint16be	1	1	0		value		false	false	false	false
+13051	Charge/discharge power	Ext. Sollvorgabe Lade/Entladeleistung		uint16be	1	1	0		value		false	false	false	false
+13099	SOC Reserve	SOC Reserve	%	uint16be	1	1	0		value		true	false	false	false
+30229	Manual Scan Manual	Scanning 170 (ON)  85 (OFF)		uint16be	1	1	0		value		false	false	false	false
+33207	Forced Charging	Erzwungendes Laden		uint16be	1	1	0		value		false	false	false	false
+33208	Forced Charging Valid Time	0: Weekday 1: Everyday		uint16be	1	1	0		value		true	false	false	false
+33209	Forced Charging Start Time 1h	Startzeit 1h 0-23	h	uint16be	1	1	0		value		true	false	false	false
+33210	Forced Charging Start Time 1min	Startzeit 1min0-59	min	uint16be	1	1	0		value		true	false	false	false
+33211	Forced Charging End Time 1h	Endzeit 1h 0-23	h	uint16be	1	1	0		value		true	false	false	false
+33212	Forced Charging End Time 1min	Endzeit 1 min 0-59	min	uint16be	1	1	0		value		true	false	false	false
+33213	Forced Charging Target SOC1	Ziel Ladezustand 0-100	%	uint16be	1	1	0		value		true	false	false	false
+33214	Forced Charging Start Time 2h	0-23	h	uint16be	1	1	0		value		false	false	false	false
+33215	Forced Charging Start Time 2min	0-59	min	uint16be	1	1	0		value		false	false	false	false
+33216	Forced Charging End Time 2h	0-23	h	uint16be	1	1	0		value		false	false	false	false
+33217	Forced Charging End Time 2min	0-59	min	uint16be	1	1	0		value		false	false	false	false
+33218	Forced Charging Target SOC2	0-100	%	uint16be	1	1	0		value		false	false	false	false

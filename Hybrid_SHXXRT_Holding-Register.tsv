@@ -4,7 +4,7 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	
 5001	System Clock Day	Systemzeit Tag		uint16be	1	1	0		value		false	false	false	false
 5002	System Clock Hour	Systemzeit Stunde		uint16be	1	1	0		value		false	false	false	false
 5003	System Clock Minute	Systemzeit Minute		uint16be	1	1	0		value		false	false	false	false
-12999	Start/Stop	Start/Stop Start(CF) Stop (CF)		uint16be	1	1	0		value		false	false	false	false
+12999	Start/Stop	Start/Stop Start(CF) Stop (CE)		uint16be	1	1	0		value		false	false	false	false
 13000	Battery Maintenance	Batterie Wartung		uint16be	1	1	0		value		false	false	false	false
 13001	Load Adjustment mode	Energie Management Modus ON/OFF(1) / Energieoptimiert(2)		uint16be	1	1	0		value		false	false	false	false
 13002	Load 1 timing period 1: Start hour		h	uint16be	1	1	0		value		false	false	false	false
@@ -30,16 +30,16 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	
 13058	Min. SOC	Min SOC	%	uint16be	1	0.1	0		value		false	false	false	false
 13059	Battery overvoltage threshold	Batterie Ãœberspannungs Threshold	V	int16be	1	0.1	0		value		false	false	false	false
 13060	Battery undervoltage threshold	Batterie Unterspannungs Threshold	V	int16be	1	0.1	0		value		false	false	false	false
-13061	Battery over temperature threshold	Batterie Ãœbertemperatur Threshold	Â°C	int16be	1	0.1	0		value		false	false	false	false
-13062	Battery under temperature threshold	Batterie Ãœbertemperatur Threshold	Â°C	int16be	1	0.1	0		value		false	false	false	false
-13064	Terminated current of constant voltage charging		Â°C	int16be	1	0.001	0		value		false	false	false	false
+13061	Battery over temperature threshold	Batterie Übertemperatur Threshold	°C	int16be	1	0.1	0		value		false	false	false	false
+13062	Battery under temperature threshold	Batterie Übertemperatur Threshold	°C	int16be	1	0.1	0		value		false	false	false	false
+13064	Terminated current of constant voltage charging		°C	int16be	1	0.001	0		value		false	false	false	false
 13065	Max. discharge current	Max. Entlade Strom	A	uint16be	1	0.001	0		value		false	false	false	false
 13066	Max. charge current	Max. Lade Strom	A	uint16be	1	0.001	0		value		false	false	false	false
 13073	Export power limitation			uint16be	1	1	0		value		false	false	false	false
 13074	Off-grid option			uint16be	1	1	0		value		false	false	false	false
 13079	External EMS heartbeat			uint16be	1	1	0		value		false	false	false	false
-13083	Start  Charging Power	u.U. Leistung, mit welcher ein Ladevorgang begonnen wird. KlÃ¤rung erwÃ¼nscht	W	uint16be	1	1	0		value		false	false	false	false
-13084	Start Discharging Power	u.U. Leistung, mit welcher ein Entladevorgang begonnen wird. KlÃ¤rung erwÃ¼nscht	W	uint16be	1	1	0		value		false	false	false	false
+13083	Start  Charging Power	u.U. Leistung, mit welcher ein Ladevorgang begonnen wird.	W	uint16be	1	1	0		value		false	false	false	false
+13084	Start Discharging Power	u.U. Leistung, mit welcher ein Entladevorgang begonnen wird.	W	uint16be	1	1	0		value		false	false	false	false
 13085	Meter Comm.	Kommunikation mit Energie Meter des WR	W	uint16be	1	1	0		value		false	false	false	false
 13086	Export Power Limitation	Einspeise Limitierung AN(170/AA) AUS(85/55h)		uint16be	1	1	0		value		false	false	false	false
 13099	SOC Reserve	SOC Reserve	%	uint16be	1	1	0		value		false	false	false	false
