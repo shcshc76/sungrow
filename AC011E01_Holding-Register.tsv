@@ -1,5 +1,5 @@
 _address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	cw	isScale
-21200	Total_Energy	Bisher geladene Gesamtleistung	KWh	uint32sb	2	0.000001			state		true	true	false	false
+21200	Total_Energy	Bisher geladene Gesamtleistung	KWh	uint32sw	2	0.000001			state		true	true	false	false
 21202	SetOutI	Ausgangsstrom | 0,1A | 6A-63A		uint16be	1	1			state		true	true	false	false
 21203	PhaseSwitch	PhaseSwitch | 0=3ph 1=1ph		uint16be	1	1			state		true	true	false	false
 21210	Charger_Enable	Charger Enable |  0=disable 1=enable		uint16be	1	1			state		true	true	false	false
