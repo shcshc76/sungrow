@@ -36,7 +36,7 @@ Für jede Verbindung müsst ihr noch die richtige "Forwarding Modbus ID" setzen.
 ![Logo](pics/bus-id.png)
 
 ## Beispiel Netzwerkverbindungen 
-![Logo](pics/Network.png)
+![Logo](pics/networking.png)
 
 
 ### Ports
