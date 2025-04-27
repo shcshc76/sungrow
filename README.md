@@ -42,6 +42,8 @@ Für jede Verbindung müsst ihr noch die richtige "Forwarding Modbus ID" setzen.
 ### Ports
 
 ![Logo](pics/Inverter_LAN_ports.drawio.svg)
+
+## Nur gültig, wenn keine Wallbox verwendet wird.
 ![Logo](pics/overview_modbus_connection.drawio.svg)
 
 
