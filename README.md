@@ -27,6 +27,18 @@ Password: pw8888
 Benutzer: user   
 Password: pw1111   
 
+### Modbus with Inverter + Wallbox
+You can not connect to SHXX-RT + Wallbox with one Modbus connection. You should use two Modbus instances to connect to Inverter and Wallbox. Each separate.
+Use for first connection (SHxx-RT) the LAN-Port of Inverter.
+The second connection should be the Winet-S Adapter (you can use Wifi or LAN) for Wallbox Modbus.
+Don´t pull the Modbus of Winet-S too much. Stable data intervals will be 10 sec. The Inverter Modbus is stable with intervals <= 500ms.
+You must set the right "Forwarding Modbus ID" for each device! 
+![Logo](pics/bus-id.png)
+
+## Example of Network connection
+![Logo](pics/Network.png)
+
+
 ### Ports
 
 ![Logo](pics/Inverter_LAN_ports.drawio.svg)
