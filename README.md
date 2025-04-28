@@ -27,9 +27,23 @@ Password: pw8888
 Benutzer: user   
 Password: pw1111   
 
+### Modbus mit Inverter + Wallbox
+Die Modbus Abfragen für die Wallbox können nicht über den LAN-Port des Inverters erfolgen! Die Wallbox kann nur über den Winet-S Adapter abgefragt werden!
+Für die Modbus Abfragen des (SHxx-RT) verwendet ihr am besten den LAN-Port des Inverters.
+Die zweite Verbindung nutzt den Winet-S Adapter (Ihr könnt dabei Wifi or LAN verwenden).
+Der Abfragezyklus der Wallbox sollte nicht schneller als 10 Sekunden sein. Fragt ihr schneller ab, geht der Winet-S auf Störung. Der Inverter verträgt auch Abfrageintervalle <= 500ms.
+Für jede Verbindung müsst ihr noch die richtige "Forwarding Modbus ID" setzen. Also die ID von eurem Gerät (Inverter oder Wallbox).
+![Logo](pics/bus-id.png)
+
+## Beispiel Netzwerkverbindungen 
+![Logo](pics/networking.png)
+
+
 ### Ports
 
 ![Logo](pics/Inverter_LAN_ports.drawio.svg)
+
+## Nur gültig, wenn keine Wallbox verwendet wird.
 ![Logo](pics/overview_modbus_connection.drawio.svg)
 
 

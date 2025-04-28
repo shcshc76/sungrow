@@ -56,3 +56,13 @@ _address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	
 33216	Forced Charging End Time 2h	0-23	h	uint16be	1	1	0		value		true	false	false	false
 33217	Forced Charging End Time 2min	0-59	min	uint16be	1	1	0		value		true	false	false	false
 33218	Forced Charging Target SOC2	0-100	%	uint16be	1	1	0		value		true	false	false	false
+33540	WB charging mode	wb charging mode (160=fastCharge 161=pvSurplus 162=quantity&timeBased 163=userDefined)		uint16be	1	1	0		value		true	false	false	false
+33541	WB charching quantity	wb charching quantity (e.g. 12kwh = 120)		uint16be	1	1	0		value		true	false	false	false
+33542	WB charching duration	wb charching duration		uint32be	2	1	0		value		true	false	false	false
+33543	WB	WB ?		uint32be	2	1	0		value		true	false	false	false
+33544	WB charching power user defined charge	wb user defined charching (eg. 10A = 100)		uint16be	1	1	0		value		true	false	false	false
+33545	WB user defined charge start time	wb user defined charge start time 		uint32be	2	1	0		value		true	false	false	false
+33546	WB	WB ?		uint32be	2	1	0		value		true	false	false	false
+33547	WB user defined charge end time 	wb user defined charge end time 		uint32be	2	1	0		value		true	false	false	false
+33548	WB 	WB ?		uint32be	2	1	0		value		true	false	false	false
+33549	WB surplus power from grid 	wb surplus ??? 85=powerFromGrid 170=?			1	1	0		value		true	false	false	false
